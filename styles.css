@@ -1,0 +1,54 @@
+/* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: orange;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* Main Styles */
+        main {
+            padding: 20px;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 2px solid orange;
+        }
+        
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        
+        ul li {
+            margin-bottom: 10px;
+        }
